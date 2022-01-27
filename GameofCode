@@ -1,0 +1,235 @@
+
+bash-3.2$ mkdir game-of-thrones
+bash-3.2$ mkdir kingslanding 
+bash-3.2$ mkdir winterfell
+bash-3.2$ mkdir the-wall
+bash-3.2$ mkdir the-narrow-sea
+bash-3.2$ cd winterfell/
+bash-3.2$ touch jon-snow.md
+bash-3.2$ touch sansa.md
+bash-3.2$ touch arya.md
+bash-3.2$ touch ned.md
+bash-3.2$ cd ../kingslanding/
+bash-3.2$ touch cersei.md
+bash-3.2$ touch tyrion.md
+bash-3.2$ touch jaime.md
+bash-3.2$ cd ../kingslanding/
+bash-3.2$ cd ../the-narrow-sea/
+bash-3.2$ mkdir daenerys
+bash-3.2$ cd daenerys/
+bash-3.2$ touch dragon-1.md
+bash-3.2$ touch dragon-2.md
+bash-3.2$ touch dragon-3.md
+bash-3.2$ cd ./win
+bash: cd: ./win: No such file or directory
+bash-3.2$ 
+bash-3.2$ cd ../
+bash-3.2$ cd ../
+bash-3.2$ ls
+game-of-thrones	kingslanding	sansa.md	the-narrow-sea	the-wall	winterfell
+bash-3.2$ cd ../winterfell/
+bash-3.2$ ls 
+mother-of-dragons.dir
+bash-3.2$ cd ../
+bash-3.2$ la
+bash: la: command not found
+bash-3.2$ ls
+kings-landing	the-narrow-sea	the-wall	winterfell
+bash-3.2$ cd winterfell/
+bash-3.2$ ls
+mother-of-dragons.dir
+bash-3.2$ ls
+ls: .: Operation not permitted
+bash-3.2$ cd 
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ mkdir game-of-thrones
+bash-3.2$ mkdir kingslanding 
+bash-3.2$ mkdir winterfell
+bash-3.2$ mkdir the-wall
+bash-3.2$ mkdir the-narrow-sea
+bash-3.2$ cd winterfell/
+bash-3.2$ touch jon-snow.md
+bash-3.2$ touch sansa.md
+bash-3.2$ touch arya.md
+bash-3.2$ touch ned.md
+bash-3.2$ cd ../kingslanding/
+bash-3.2$ touch cersei.md
+bash-3.2$ touch tyrion.md
+bash-3.2$  touch jaime.md
+bash-3.2$ cd ../the-narrow-sea/
+bash-3.2$  mkdir daenerys
+bash-3.2$ cd daenerys/
+bash-3.2$ touch dragon-1.md
+bash-3.2$ touch dragon-2.md
+bash-3.2$ touch dragon-3.md
+bash-3.2$ cd ../
+bash-3.2$ ls
+daenerys
+bash-3.2$ cd ../
+bash-3.2$ ls
+CodeImmersive	Documents	Library		Music		Public		Python		kingslanding	the-wall
+Desktop		Downloads	Movies		Pictures	PycharmProjects	game-of-thrones	the-narrow-sea	winterfell
+bash-3.2$ game-of-thrones/
+bash: game-of-thrones/: is a directory
+bash-3.2$ ls
+CodeImmersive	Documents	Library		Music		Public		Python		kingslanding	the-wall
+Desktop		Downloads	Movies		Pictures	PycharmProjects	game-of-thrones	the-narrow-sea	winterfell
+bash-3.2$ cd game-of-thrones/
+bash-3.2$ ls
+bash-3.2$ ls
+kingslanding	the-narrow-sea	the-wall	winterfell
+bash-3.2$ cd winterfell/
+bash-3.2$ mv ned.md ../kingslanding/
+bash-3.2$ cd ../
+bash-3.2$ ls
+kingslanding	the-narrow-sea	the-wall	winterfell
+bash-3.2$ cd the-wall/
+bash-3.2$ ls
+bash-3.2$ cd ../
+bash-3.2$ ls
+kingslanding	the-narrow-sea	the-wall	winterfell
+bash-3.2$ cd winterfell/
+bash-3.2$ ls
+arya.md		jon-snow.md	sansa.md
+bash-3.2$ mv jon-snow.md ../the-wall/
+bash-3.2$ ls
+arya.md		sansa.md
+bash-3.2$ mv arya.md sansa.md ../kingslanding/
+bash-3.2$ cd ../
+bash-3.2$ ls
+kingslanding	the-narrow-sea	the-wall	winterfell
+bash-3.2$ cd the-narrow-sea/
+bash-3.2$ ls
+daenerys
+bash-3.2$ mv daenerys mother-of-dragons
+bash-3.2$ ls
+mother-of-dragons
+bash-3.2$ cd ../
+bash-3.2$ cd kingslanding/
+bash-3.2$ rm ned.md 
+bash-3.2$ cd ../the-narrow-sea/
+bash-3.2$ ls
+mother-of-dragons
+bash-3.2$ mv mother-of-dragons ../the-wall/
+bash-3.2$ ls
+bash-3.2$ cd ../the-wall/
+bash-3.2$ ls
+jon-snow.md		mother-of-dragons
+bash-3.2$ cd mother-of-dragons/
+bash-3.2$ ls
+dragon-1.md	dragon-2.md	dragon-3.md
+bash-3.2$ rm dragon-3.md 
+bash-3.2$ cd ../
+bash-3.2$ ls
+jon-snow.md		mother-of-dragons
+bash-3.2$ cd ../
+bash-3.2$ cd winterfell/
+bash-3.2$ ls 
+bash-3.2$ cd ../kingslanding/
+bash-3.2$ ls
+arya.md		cersei.md	jaime.md	sansa.md	tyrion.md
+bash-3.2$ mv sansa.md arya.md ../winterfell/
+bash-3.2$ cd ../the-wall/
+bash-3.2$ ls
+jon-snow.md		mother-of-dragons
+bash-3.2$ m
+m4                   malloc_history       memory_pressure      mkpassdb             mount_afp            mount_smbfs
+mDNSResponder        man                  mesg                 mktemp               mount_apfs           mount_tmpfs
+mDNSResponderHelper  mandoc               mg                   mmroff               mount_cd9660         mount_udf
+macbinary            mandoc_soelim        mib2c                mnthome              mount_cddafs         mount_webdav
+macerror             manpath              mib2c-update         moo-outdated         mount_devfs          mp2bug
+macerror5.18         mcxquery             mig                  moo-outdated5.18     mount_exfat          mpioutil
+macerror5.30         mcxrefresh           mkbom                moose-outdated       mount_fdesc          msgs
+machine              md5                  mkdir                moose-outdated5.18   mount_ftp            mtree
+mail                 mddiagnose           mkextunpack          moose-outdated5.30   mount_hfs            mv
+mailq                mdfind               mkfifo               more                 mount_lifs           
+mailx                mdimport             mkfile               mount                mount_msdos          
+make                 mdls                 mklocale             mount_9p             mount_nfs            
+makeinfo             mdutil               mknod                mount_acfs           mount_ntfs           
+bash-3.2$ mv jon-snow.md mother-of-dragons  ../winterfell/
+bash-3.2$ 
+bash-3.2$ cd ../kingslanding/
+bash-3.2$ ls
+cersei.md	jaime.md	tyrion.md
+bash-3.2$ mv jaime.md tyrion.md ../winterfell/
+bash-3.2$ cd ../winterfell/
+bash-3.2$ ls
+arya.md			jon-snow.md		sansa.md
+jaime.md		mother-of-dragons	tyrion.md
+bash-3.2$ mv arya.md j
+jaime.md     jon-snow.md  
+bash-3.2$ mv arya.md jon-snow.md jaime.md tyrion.md mother-of-dragons ../kingslanding/
+bash-3.2$ ls
+sansa.md
+bash-3.2$ cd ../kingslanding/
+bash-3.2$ ls
+arya.md			jaime.md		mother-of-dragons
+cersei.md		jon-snow.md		tyrion.md
+bash-3.2$ rm cersei.md jaime.md 
+bash-3.2$ cd mother-of-dragons
+bash-3.2$ ls
+dragon-1.md	dragon-2.md
+bash-3.2$ rm dragon-2
+rm: dragon-2: No such file or directory
+bash-3.2$ ls
+dragon-1.md	dragon-2.md
+bash-3.2$ rm dragon-2.md 
+bash-3.2$ cd ../
+bash-3.2$ ls
+arya.md			jon-snow.md		mother-of-dragons	tyrion.md
+bash-3.2$ cd ../
+bash-3.2$ ls
+kingslanding	the-narrow-sea	the-wall	winterfell
+bash-3.2$ cd kingslanding/
+bash-3.2$ ls
+arya.md			jon-snow.md		mother-of-dragons	tyrion.md
+bash-3.2$ rm arya.md jon-snow.md mother-of-dragons tyrion.md 
+rm: mother-of-dragons: is a directory
+bash-3.2$ rm arya.md jon-snow.md  tyrion.md 
+rm: arya.md: No such file or directory
+rm: jon-snow.md: No such file or directory
+rm: tyrion.md: No such file or directory
+bash-3.2$ rm mother-of-dragons/
+rm: mother-of-dragons/: is a directory
+bash-3.2$ rm mother-of-dragons/ -r
+rm: mother-of-dragons/: is a directory
+rm: -r: No such file or directory
+bash-3.2$ rm mother-of-dragons.dir
+rm: mother-of-dragons.dir: No such file or directory
+bash-3.2$ rmdir mother-of-dragons/
+rmdir: mother-of-dragons/: Directory not empty
+bash-3.2$ rmdir mother-of-dragons/ -r
+rmdir: mother-of-dragons/: Directory not empty
+rmdir: -r: No such file or directory
+bash-3.2$ rmdir -r  mother-of-dragons/ 
+rmdir: illegal option -- r
+usage: rmdir [-p] directory ...
+bash-3.2$ rmdir -R  mother-of-dragons/ 
+rmdir: illegal option -- R
+usage: rmdir [-p] directory ...
+bash-3.2$ rmdir 
+usage: rmdir [-p] directory ...
+bash-3.2$ ls
+mother-of-dragons
+bash-3.2$ cd mother-of-dragons
+bash-3.2$ ls
+dragon-1.md
+bash-3.2$ rm dragon-1.md 
+bash-3.2$ cd ../
+bash-3.2$ ls
+mother-of-dragons
+bash-3.2$ cd ../
+bash-3.2$ ls
+kingslanding	the-narrow-sea	the-wall	winterfell
+bash-3.2$ cd kingslanding/
+bash-3.2$ rmdir mother-of-dragons/
+bash-3.2$  cd ../
+bash-3.2$ cd winterfell/
+bash-3.2$ ls
+sansa.md
+bash-3.2$ mv sansa.md ../kingslanding/
+bash-3.2$ 
